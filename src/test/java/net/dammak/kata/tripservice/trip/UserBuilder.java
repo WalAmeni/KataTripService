@@ -23,7 +23,7 @@ public class UserBuilder {
 		return this;
 	}
 
-	public User Build() {
+	public User build() {
 		User user = new User();
 		for(User friend :friends) {	
 			user.addFriend(friend);

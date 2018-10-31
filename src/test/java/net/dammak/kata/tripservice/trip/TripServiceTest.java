@@ -59,7 +59,7 @@ public class TripServiceTest {
 		User friend = UserBuilder.aUser()
 		              .friendsWith(loggedInUser, ANOTHER_USER)
 		              .withTrips(TO_BRASIL, TO_LONDON)
-		              .Build();
+		              .build();
 		//User friend = new User();
 		
 		//friend.addFriend(loggedInUser);
